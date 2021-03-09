@@ -1,0 +1,143 @@
+.footer {
+  width: 100%;
+  height: 60vh;  
+  background-color: #330705;
+  color: #ffffff; 
+}
+
+@media screen and (max-width: 800px) {
+  .footer{
+      height: 60vh; 
+      padding-top: 20px; 
+  }  
+  .rowF {
+    display: flex;
+    flex-direction: colum;
+     
+  }
+  .imgFooter{
+    display: none; 
+  }
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cooper {
+  text-align: center;
+  padding: 20px;
+  color: #FFFFFF;
+  background-color: #330705;
+}
+
+.rowF {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.rowBi {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.colCi {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.colA {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer img {
+  border-radius: 15px;
+}
+.colB {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.colC {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.elSpacerInner {
+  height: 50px;
+}
+
+.colCi .a {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+}
+
+.backSocialMedia { 
+  color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.colCi .WhatsIcon {
+  color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.innerline{
+  border-top: 1px solid lightgrey;
+}
+
+.line{
+  /* background-color: #757575; */
+  background-color: #330705;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.imgFooter{
+  width: 100%;
+  height:100%;
+}
